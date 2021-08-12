@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon index.js",
-    "start": "node index.js",
+    "start:dev":"nodemon index",
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rakib",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "express": "*",
+    "mongodb": "^4.1.0",
     "body-parser": "*",
     "express-fileupload": "^1.2.1"
   }
